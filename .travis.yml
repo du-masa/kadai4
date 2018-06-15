@@ -1,0 +1,4 @@
+language: bash
+script:
+  - echo hello
+  - ./18445013-test.sh

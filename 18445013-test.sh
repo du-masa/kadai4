@@ -33,3 +33,5 @@ diff $$-temptest-ans $$-temptest > /dev/null 2>&1 || echo "「素数判定」が
 
 
 rm -f ./$$-*
+
+exit 1
