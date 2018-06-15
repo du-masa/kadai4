@@ -26,12 +26,10 @@ echo $num "は素数です" > $$-temptest
 ./18445013.sh $num > $$-temptest-ans
 diff $$-temptest-ans $$-temptest > /dev/null 2>&1 || echo "「素数判定」が間違えています"
 
-num=5
+num=4
 echo $num "は素数ではありません" > $$-temptest
 ./18445013.sh $num > $$-temptest-ans
 diff $$-temptest-ans $$-temptest > /dev/null 2>&1 || echo "「素数判定」が間違えています"
 
 
 rm -f ./$$-*
-
-exit 1
